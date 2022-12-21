@@ -1,5 +1,6 @@
 ﻿using Microsoft.AspNetCore.Http;
 using Microsoft.AspNetCore.Mvc;
+using ProductAPI.Models;
 using System;
 using System.Collections.Generic;
 using System.Linq;
@@ -17,6 +18,12 @@ namespace ProductAPI.Controllers
         public async Task<ActionResult> getValues()
         {
             return Ok("welcome");
+        }
+
+        [HttpPut]
+        public async Task<ActionResult> UpdateValues(Value v)
+        {
+            return Ok();
         }
     }
 }
