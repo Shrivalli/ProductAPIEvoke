@@ -12,5 +12,11 @@ namespace ProductAPI.Controllers
     public class ValuesController : ControllerBase
     {
         //getvalue method 
+
+        [HttpGet]
+        public async Task<ActionResult> getValues()
+        {
+            return Ok("welcome");
+        }
     }
 }
