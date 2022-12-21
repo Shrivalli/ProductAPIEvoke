@@ -14,6 +14,13 @@ namespace ProductAPI.Controllers
     {
         //getvalue method 
 
+        //Post method
+        [HttpPost]
+        public async Task<ActionResult> AddValue(Value V)
+        {
+            return Ok();
+        }
+
         [HttpGet]
         public async Task<ActionResult> getValues()
         {
