@@ -27,9 +27,7 @@ namespace ProductAPI.Controllers
             return Ok("welcome");
         }
 
-        //Post method
-        [HttpPost]
-        public async Task<ActionResult> AddValue(Value V)
+
         {
             return Ok();
         }
