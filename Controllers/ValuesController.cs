@@ -20,5 +20,11 @@ namespace ProductAPI.Controllers
         {
             return Ok();
         }
+
+        [HttpGet]
+        public async Task<ActionResult> getValues()
+        {
+            return Ok("welcome");
+        }
     }
 }
