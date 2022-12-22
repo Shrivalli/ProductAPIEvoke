@@ -32,7 +32,7 @@ namespace ProductAPI.Controllers
         [HttpDelete]
         public async Task<ActionResult> DeleteValues()
         {
-            
+            int x = 90;
             return Ok();
         }
 
