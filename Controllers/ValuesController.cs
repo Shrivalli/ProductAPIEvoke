@@ -18,18 +18,18 @@ namespace ProductAPI.Controllers
         [HttpPost]
         public async Task<ActionResult> AddValue(Value V)
         {
+            int a = 10;
             return Ok();
         }
 
         [HttpGet]
         public async Task<ActionResult> getValues()
         {
+            int b = 20;
             return Ok("welcome");
         }
 
 
-        {
-            return Ok();
-        }
+        
     }
 }
