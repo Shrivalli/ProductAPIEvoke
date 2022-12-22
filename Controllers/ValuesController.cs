@@ -27,5 +27,9 @@ namespace ProductAPI.Controllers
             return Ok("welcome");
         }
 
+
+        {
+            return Ok();
+        }
     }
 }
