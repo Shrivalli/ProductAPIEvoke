@@ -29,6 +29,13 @@ namespace ProductAPI.Controllers
             return Ok("welcome");
         }
 
+        //Put method added
+        [HttpPut]
+        public async Task<ActionResult> UpdateValues(Value v)
+        {
+            return Ok();
+        }
+
 
         
     }
