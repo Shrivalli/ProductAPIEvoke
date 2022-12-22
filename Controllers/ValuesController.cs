@@ -28,6 +28,13 @@ namespace ProductAPI.Controllers
             int b = 20;
             return Ok("welcome");
         }
+        
+        [HttpDelete]
+        public async Task<ActionResult> DeleteValues()
+        {
+            
+            return Ok();
+        }
 
         //Put method added
         [HttpPut]
